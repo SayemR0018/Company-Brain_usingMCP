@@ -1,0 +1,178 @@
+# ==============================================================================
+# System Junk & OS Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==============================================================================
+# IDEs & Editor Configurations
+# ==============================================================================
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim, Sublime Text, Emacs, and others
+*.sublime-project
+*.sublime-workspace
+*~
+*.swp
+*.swo
+.netrwhist
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-z][a-z]
+[._]ss[a-gi-z]
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
+
+# ==============================================================================
+# Node.js / JavaScript / TypeScript
+# ==============================================================================
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build & Distribution outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+.temp/
+.cache/
+.parcel-cache/
+.docusaurus/
+.serverless/
+.fusebox/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# TypeScript Cache
+*.tsbuildinfo
+
+# Tool Caches
+.npm/
+.eslintcache
+.stylelintcache
+.prettiercache
+.vitest/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Package tarballs
+*.tgz
+
+# Package manager lock/integrity structures (excluding main lockfiles if needed)
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.pnpm-store/
+
+# ==============================================================================
+# Cloudflare Wrangler & Workers
+# ==============================================================================
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+pyenv/
+.pyenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging & distribution
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Environment Files & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+.env.env
+.env.*
+!.env.example
+!.env.template
+
+# ==============================================================================
+# Obsidian / Markdown Wiki Local Settings
+# ==============================================================================
+# Ignore Obsidian workspace configuration as it changes constantly with local window layouts
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

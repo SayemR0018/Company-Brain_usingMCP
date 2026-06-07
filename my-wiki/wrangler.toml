@@ -1,0 +1,13 @@
+# Wrangler Configuration File for my-wiki-mcp
+
+name = "my-wiki-mcp"
+main = "src/index.ts"
+compatibility_date = "2026-05-24"
+compatibility_flags = [ "nodejs_compat" ]
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "WIKI"
+id = "75c5104ba9ab4402bee6e5a0556b840c"
