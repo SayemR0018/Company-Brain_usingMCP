@@ -4,6 +4,8 @@ An enterprise-grade project designed to centralize scattered corporate operating
 
 ---
 
+![image alt](https://github.com/SayemR0018/Company-Brain_usingMCP/blob/55bc1143e0cdb84c0bd3352c12d97bf00630ba62/ComanyBrainMCP_architecture.png)
+
 ## 🧠 Core Concept & Inspiration
 
 This project adapts the **LLM Wiki Pattern**. Rather than using an LLM token budget exclusively for writing code, tokens are systematically shifted to structuring and manipulating operational knowledge.
